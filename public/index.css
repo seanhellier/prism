@@ -1,0 +1,26 @@
+.navbar {
+  height: 90px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  /* background-color: */
+  background-image: linear-gradient(
+    rgb(16, 1, 48),
+    rgb(28, 8, 77),
+    rgb(39, 8, 110),
+    rgb(24, 3, 73),
+    rgb(25, 0, 82),
+    rgb(12, 1, 37)
+  );
+  font-family: "Rajdhani", sans-serif;
+  font-size: 15px;
+  height: 80px;
+  justify-content: stretch;
+  align-items: center;
+  box-shadow: 5px 2px 5px #000000;
+  border-bottom: 1px solid rgba(185, 185, 185, 0.678);
+  z-index: 70;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+}
