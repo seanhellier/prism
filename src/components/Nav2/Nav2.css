@@ -1,0 +1,38 @@
+.navbar {
+  height: 90px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  /* background-color: rgb(15, 1, 51); */
+  background-image: linear-gradient(
+    rgb(45, 3, 151),
+    rgb(24, 2, 82),
+    rgb(15, 1, 51)
+  );
+  /* position: fixed; */
+  /* left: 0;
+  top: 0; */
+  /* background-image: linear-gradient(
+    rgb(16, 1, 48),
+    rgb(28, 8, 77),
+    rgb(39, 8, 110),
+    rgb(24, 3, 73),
+    rgb(25, 0, 82),
+    rgb(12, 1, 37)
+  ); */
+}
+
+.navbar-brand {
+  height: 60px;
+  font-family: "Syncopate", sans-serif;
+  font-size: 35px;
+  letter-spacing: 30px;
+  position: absolute;
+  left: 55px;
+  margin-bottom: 5px;
+  /* text-shadow: 2px 8px 9px rgba(255, 255, 255, 0.534); */
+
+  background: linear-gradient(to top, #25eeee 0%, #4703c7 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
